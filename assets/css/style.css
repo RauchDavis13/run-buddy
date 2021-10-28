@@ -44,7 +44,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  margin: 0 30px;
+  padding: 10 15px;
   font-weight: lighter;
   font-size: 1.55vw;
 }
@@ -58,23 +58,18 @@ footer {
   flex-wrap: wrap;
 }
 
-footer h2 {
-  color: #024e76;
-  font-size: 30px;
-  margin: 0;
-}
-
-footer div {
-  line-height: 1.5;
-  text-align: right;
-}
-
-footer a {
-  color: #024e76;
-}
-
 section {
   padding: 60px;
+}
+
+.section-title {
+  font-size: 48px;
+  color: #024e76;
+  padding: 20px;
+  border-bottom: 3px solid;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
 /* Hero Style Start */
@@ -94,7 +89,7 @@ section {
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -195,16 +190,6 @@ section {
   font-size: 26px;
   line-height: 1.5;
   color: #024e76;
-}
-
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  padding: 20px;
-  border-bottom: 3px solid;
-  text-align: center;
-  margin: 0 auto 35px auto;
-  width: 50%;
 }
 
 .primary-border {
@@ -332,6 +317,40 @@ section {
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+}
+
+footer h2 {
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #024e76;
+}
+
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header h1 a {
+
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND AND SMALLER */
+@media screen and (max-width: 575px) {
+
+  }
 }
 
 /* REACH OUT STYLES END */
